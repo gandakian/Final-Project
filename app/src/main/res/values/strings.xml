@@ -35,5 +35,10 @@
     <string name="title_messages">Messages</string>
     <string name="title_friends">Friends</string>
     <string name="title_home">Home</string>
+    <string name="title_activity_about_me">AboutMe</string>
+
+    <string name="about_me">
+        This app named as \"Meds Reminder\" is developed by Amir Bhujel. \n\nThis project is the part of curriculum for the course \"Mobile Device Programming\" and is done as the Final Project. \n\nI am the student studying MS in Computer Science at Maharishi University of Managemet. \n\nFairfield Iowa, USA
+    </string>
 
 </resources>

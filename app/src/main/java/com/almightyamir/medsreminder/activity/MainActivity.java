@@ -79,6 +79,11 @@ public class MainActivity extends AppCompatActivity
 
     }
 
+    public void aboutMe(){
+        Intent intent = new Intent(getApplicationContext(), AboutMe.class);
+        startActivity(intent);
+    }
+
     public void shareWith(){
         Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
         sharingIntent.setType("text/plain");
@@ -142,6 +147,8 @@ public class MainActivity extends AppCompatActivity
             openSettings();
         } else if (id == R.id.nav_share) {
             shareWith();
+        } else if (id == R.id.nav_about_me) {
+            aboutMe();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
